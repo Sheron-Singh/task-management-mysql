@@ -13,3 +13,18 @@ A full-featured task management backend built with
 - MySQL & Sequelize ORM for data handling
 - RESTful API structure
 
+## APi End Points
+
+
+- auth
+http://localhost:3000/api/v1/auth/register
+http://localhost:3000/api/v1/auth/login
+
+- tasks
+http://localhost:3000/api/v1/tasks/create
+http://localhost:3000/api/v1/tasks/update/1
+http://localhost:3000/api/v1/tasks/deletebyid/1
+http://localhost:3000/api/v1/tasks/getalltask
+
+- user
+http://localhost:3000/api/v1/users/getUserTasks/user_id/tasks
